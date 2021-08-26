@@ -11,18 +11,18 @@
 				Say Happy Birthday!
 			</h1>
 		</div>
-		<form>
+		<form method="POST" enctype="multipart/form-data" action="http://localhost:8006">
 			<div>
 				<input type="text" name="sender-name" id="sender-name">
 				<label for="sender-name">Your name</label>				
 			</div>
 			<div>
-				<input type="text" name="recipient-name" id="recipient-name">
-				<label for="recipient-name">Celebrant name</label>
+				<input type="text" name="celebrant-name" id="recipient-name">
+				<label for="elebrant-name">Celebrant name</label>
 			</div>
 			<div>
-				<input type="tel" id="phone-number" name="phone-number">
-				<label for="phone-number">Celebrant number</label>
+				<input type="tel" id="celebrant-number" name="celebrant-number">
+				<label for="phone-number">Celebrant phone number</label>
 			</div>
 			<button id="send">Send</button>
 		</form>
